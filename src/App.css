@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+/* ________________________________________Navbar_______________________________________ */
+.nav{
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+
+#navbar{
+  /* background-color: aqua; */
+  margin-left: 28%;
+  
+}
+  
+  
+}
+#link{
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ________________________________________Apple Logo_______________________________________ */
+#al{
+  height: 18px;
+  width: 14px;
+  padding-right: 10px;
+}
+
+
+#ahticorn{
+  color: white;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: blue; */
+}
+
+#cartnavbar{
+  text-align: end;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20%;
+}
+
+#cartlink{
+  color: white;
+}
+
+
+
+#ahticornstore{
+  border-top: 1px solid white;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 15px;
+}
+
+#storebuttonbox{
+  text-align: center;
+  margin-top: -30%;
+}
+#storebutton{
+  color: rgb(41, 109, 236);
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: larger;
+  border: 2px solid rgb(41, 109, 236);
+  padding: 5px 15px;
+  border-radius: 40px;
+  /* background-color: aliceblue; */
+}
+#storebutton:hover{
+  border: 2px solid red;
+  color: red;
+}
+
