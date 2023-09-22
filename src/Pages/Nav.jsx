@@ -13,7 +13,7 @@ export const Nav = () => {
             <Link id="link" to="/"> <img id="al" src={applelogo} alt="noimg" /> Store </Link>
             <Link id="link" to="/iphone"> iPhone </Link>
             <Link id="link" to="/mac"> Mac </Link>
-            <Link id="link" to="/ipad"> iPad </Link>
+            {/* <Link id="link" to="/ipad"> iPad </Link> */}
             {/* <Link id="link" to="/watch"> Watch </Link> */}
             {/* <Link id="link" to="/airpods"> AirPods </Link> */}
             <Link id="link" to="/contact"> Contact </Link>

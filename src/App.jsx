@@ -9,13 +9,11 @@ import { Mac } from "./Pages/Mac"
 import { Ipad } from "./Pages/Ipad"
 import { Watch } from "./Pages/Watch"
 import { AirPods } from "./Pages/AirPods"
-import { Contact } from "./Pages/Contact"
+import { Form } from "./Pages/Contact"
 import { Nav } from "./Pages/Nav"
 import { Cart } from "./Pages/cart"
 
-
 function App() {
-
   return (
     <div className='App'>
       <Router>
@@ -27,12 +25,10 @@ function App() {
           <Route path='/ipad' element={<Ipad />} />
           <Route path='/watch' element={<Watch />} />
           <Route path='/airpods' element={<AirPods />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contact' element={<Form />} />
           <Route path='cart' element={<Cart />} />
         </Routes>
       </Router>
-
-
     </div>
   )
 }
