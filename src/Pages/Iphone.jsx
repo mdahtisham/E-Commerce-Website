@@ -26,11 +26,31 @@ export const Iphone = () => {
 
     const [product, setProduct] = useState([
         {
+            url: 'https://imgur.com/635oX9l.jpeg',
+            name: 'iPhone 15 Pro Max',
+            brand: 'Apple',
+            price: 159900,
+            quantity: 1
+        },
+        {
+            url: 'https://imgur.com/E1qaVAs.jpeg',
+            name: 'iPhone  15 Pro ',
+            brand: 'Apple',
+            price: 134900,
+            quantity: 1
+        },
+        {
+            url: 'https://imgur.com/lk7nukb.jpeg',
+            name: 'iPhone 15 Model',
+            brand: 'Apple',
+            price: 79900,
+            quantity: 1
+        },
+        {
             url: 'https://i.imgur.com/naze7oa.jpeg',
             name: 'iPhone 14 Pro Max',
             brand: 'Apple',
             price: 132999,
-            storage: 256,
             quantity: 1
         },
         {
@@ -38,7 +58,6 @@ export const Iphone = () => {
             name: 'iPhone  14 Pro ',
             brand: 'Apple',
             price: 123999,
-            storage: 256,
             quantity: 1
         },
         {
@@ -46,7 +65,6 @@ export const Iphone = () => {
             name: 'iPhone 14 Model',
             brand: 'Apple',
             price: 69513,
-            storage: 256,
             quantity: 1
         },
         {
@@ -54,7 +72,6 @@ export const Iphone = () => {
             name: 'iPhone 13 Pro Max',
             brand: 'Apple',
             price: 129900,
-            storage: 256,
             quantity: 1
         },
         {
@@ -62,7 +79,6 @@ export const Iphone = () => {
             name: 'iPhone  13  Pro ',
             brand: 'Apple',
             price: 119900,
-            storage: 256,
             quantity: 1
         },
         {
@@ -70,7 +86,6 @@ export const Iphone = () => {
             name: 'iPhone 13',
             brand: 'Apple',
             price: 69900,
-            storage: 256,
             quantity: 1
         }
     ])

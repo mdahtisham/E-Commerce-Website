@@ -1,8 +1,8 @@
 
 .contact-container{
     background-color: rgba(53, 53, 53, 0.089);
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
+    width: 100%;
     text-align: center;
     font-family: sans-serif;
 }
