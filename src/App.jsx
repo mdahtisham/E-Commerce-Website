@@ -12,6 +12,7 @@ import { AirPods } from "./Pages/AirPods"
 import { Form } from "./Pages/Contact"
 import { Nav } from "./Pages/Nav"
 import { Cart } from "./Pages/cart"
+import { Login } from './Pages/login'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/airpods' element={<AirPods />} />
           <Route path='/contact' element={<Form />} />
           <Route path='cart' element={<Cart />} />
+          <Route path='login' element={<Login />} />
         </Routes>
       </Router>
     </div>
